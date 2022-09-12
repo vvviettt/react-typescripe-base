@@ -1,15 +1,15 @@
 {
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "root": ["./"],
-        "alias": {
-          "@root": "./src",
-          "@pages": "./src/pages",
-          "@components": "./src/components"
-        }
-      }
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": ["./"],
+                "alias": {
+                    "@root": "./src",
+                    "@images": "./src/assets/images",
+                    "@components": "./src/components"
+                }
+            }
+        ]
     ]
-  ]
 }
